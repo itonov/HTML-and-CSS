@@ -1,0 +1,22 @@
+body {
+    background-color: rgb(238, 238, 238);
+}
+
+ul.gallery {
+    padding: 0 60px;
+}
+
+ul.gallery li {
+    vertical-align: middle;
+    display: inline-block;
+    margin: 5px;
+    border-width: 0.4rem;
+    border-color: black;
+    border-style: solid;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    padding: 10px;
+}

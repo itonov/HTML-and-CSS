@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    width: 1200px;
+    margin: 20px auto;
+    background: #EEEEEE;
+}
+
+header {
+    border-bottom: 3px solid black;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+p.italic {
+    font-style: italic;
+    color: gray;
+}
+
+.site-title {
+    display: inline-block;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.float-left {
+    float: left;
+    width: 75%;
+}
+
+.float-left-width-60 {
+    float: left;
+    width: 60%;
+}
+
+.float-text-right {
+    float: right;
+    width: 35%;
+}
+
+.float-img-right {
+    height: auto;
+    float: right;
+    width: 15%;
+    border: 2px solid black;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.float-img-left {
+    margin: 15px;
+    height: auto;
+    float: left;
+    width: 15%;
+    border: 2px solid black;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.cleaner {
+    clear: both;
+}
+
+.author-text-section {
+    border-left: 2px solid lightgray;
+    padding: 25px;
+}
+
+.author-name-section {
+    float: right;
+    width: 40%;
+}

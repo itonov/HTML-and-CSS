@@ -1,0 +1,30 @@
+@media screen and (min-width: 0px) and (max-width: 768px) {
+    main.site-main {
+        margin: 0;
+    }
+
+    header.site-header nav.site-navigation {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    main.site-main {
+        margin: 0;
+    }
+
+    section.site-logos div.site-logos-container {
+        display: flex;
+    }
+
+    .site-logo {
+        font-size: 1.60rem;
+        position: relative;
+        width: 1em;
+        flex: 1 0 5em;
+    }
+
+    .site-logo span {
+        transform: none;
+    }
+}

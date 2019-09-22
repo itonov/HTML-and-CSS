@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Roboto&display=swap');
+
+*, *:before, *:after {
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Abril Fatface', cursive;
+}
+
+main {
+    margin: 0 4em;
+}
+
+section {
+    display: flex;
+}
+
+section.upper-section {
+    justify-content: space-between;
+}
+
+section.below-section div.services {
+    flex: 0 0 75%;
+    padding: 3em;
+    background-color: #F2F0F3;
+}
+
+section.below-section div.info-section {
+    flex: 0 0 20%;
+    padding: 3em 1em;
+    background-color: #BAB1AD;
+}
+
+section.upper-section > div:last-child {
+    align-self: flex-end;
+    flex: 0 0 15em;
+}
+
+div.services ul {
+    list-style: none;
+    margin-top: 1em;
+    margin-bottom: 3em;
+}
+
+div.services ul li {
+    margin-bottom: 1em;
+}
+
+div.services ul li i {
+    margin-right: 0.5em;
+
+}
+
+div.services div.contacts h2 {
+    border-bottom: 0.1em solid black;
+}
+
+.info-section {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-evenly;
+}
+
+.info-section h1 {
+    color: white;
+}
+
+.contacts {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contacts h2 {
+    flex: 0 0 100%;
+}
+
+.contacts span {
+    flex: 0 0 25%;
+}
+
+.contacts span em {
+    font-weight: bold;
+}

@@ -1,0 +1,33 @@
+*, *:before, *:after {
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+header {
+    border-width: 2px;
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+    display: flex;
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+    margin-left: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul li {
+    margin-right: 10px;
+}
+
+li a {
+    text-decoration: none;
+    color: rgb(0, 153, 0);
+}

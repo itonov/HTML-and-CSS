@@ -1,0 +1,90 @@
+@import url("https://fonts.google.com/specimen/PT+Serif");
+
+*, *:before, *:after {
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font: 16px/1.5 "PT Serif", sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 2rem;
+    max-height: 80vh;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 8px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+main {
+    display: flex;
+    align-items: flex-start;
+}
+
+main > div {
+    flex: 0 0 50%;
+}
+
+header {
+    margin-bottom: 3em;
+}
+
+header h3 {
+    border-bottom: 3px dotted green;
+    margin-bottom: 0.5em;
+    text-align: center;
+}
+
+section.subheader-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+div > ul {
+    list-style: none;
+}
+
+div.description {
+    background: url("image1.png");
+    flex: 0 0 50%;
+    padding: 2em;
+}
+
+div.image-container {
+
+}
+
+div.image-container div.media {
+    overflow: hidden;
+}
+
+div.image-container div.media img {
+    display: block;
+    max-height: 80vh;
+    width: 100%;
+    height: auto;
+}
+
+p.paragraph-desctiption {
+    margin-bottom: 1.5em;
+}
+
+ul {
+    margin-bottom: 1em;
+}
+
+li > strong {
+    color: green;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    flex: 1 1 15em;
+    text-align: center;
+}
+
+table * {
+    border: 0.1em solid green;
+}

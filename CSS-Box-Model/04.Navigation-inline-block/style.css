@@ -1,0 +1,41 @@
+html {
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.2rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Georgia, serif;
+    font-size: 1em;
+    line-height: 1.2rem;
+}
+
+header {
+    display: inline-block;
+    padding-bottom: 20px;
+    border-bottom: black solid 2px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    display: inline;
+}
+
+header nav {
+    display: inherit;
+    margin: 0 300px auto;
+}
+
+header nav ul > li {
+    display: inline-block;
+}
+
+nav ul li a {
+    color: green;
+    text-decoration: none;
+}
+
+nav ul li:not(:last-child) {
+    margin-right: 10px;
+}

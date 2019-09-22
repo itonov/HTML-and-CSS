@@ -1,0 +1,19 @@
+body {
+    display: flex;
+}
+
+header {
+    flex: 1 1 15rem;
+}
+
+main {
+    flex: 1 1 15rem;
+}
+
+aside {
+    flex: 1 1 15rem;
+}
+
+footer {
+    flex: 1 1 15rem;
+}

@@ -1,0 +1,32 @@
+*, *:before, *:after {
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+div.container {
+    max-width: 65vw;
+}
+
+div section {
+    display: flex;
+    align-items: center;
+}
+
+span {
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+}
+
+.notes {
+    flex-direction: column;
+}
+
+.week {
+    flex: 1 1 10rem;
+}
